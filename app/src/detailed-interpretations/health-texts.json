@@ -1,0 +1,107 @@
+{
+    "introduction": {
+        "template": "Your health horoscope reveals the cosmic patterns influencing your physical vitality, energy levels, and overall wellbeing. Based on your birth chart, we can see how Mars (planet of energy), Saturn (planet of structure), and your 6th house of health shape your body's natural rhythms and vulnerabilities.\n\nWith Mars in {marsSign} and your 6th house cusp in {sixthHouseSign}, you have a unique constitution that thrives under certain conditions and requires attention in others. This analysis explores how the planetary transits affect your vitality, offering guidance for maintaining optimal health throughout the year."
+    },
+    "mars_in_signs": {
+        "Aries": {
+            "natal": "Mars in Aries gives you abundant, fiery energy that needs regular physical outlets. You thrive on activity and may become restless or irritable when sedentary too long. Your vitality is strong but can run hot—inflammation and fevers may be your body's response to imbalance. Head and face areas require protection.",
+            "strength": "Your natural vitality and quick recovery powers serve you well. You have strong life force that bounces back rapidly from challenges.",
+            "challenge": "Impulsive actions increase accident risk. Learning to channel abundant energy constructively protects against injuries."
+        },
+        "Taurus": {
+            "natal": "Mars in Taurus provides steady, enduring energy rather than explosive bursts. Your constitution is generally strong but can be slow to mobilize. Throat and neck areas may be sensitive. You do well with consistent routines rather than dramatic fitness overhauls. Overindulgence in sensory pleasures requires awareness.",
+            "strength": "Your patient persistence in health routines leads to lasting results. Once you establish healthy habits, you maintain them reliably.",
+            "challenge": "Inertia can allow small issues to become larger. Learning to respond to early warning signs prevents stubborn health patterns."
+        },
+        "Gemini": {
+            "natal": "Mars in Gemini creates restless energy that thrives on variety and mental stimulation. Your nervous system is active and may need calming practices. Hands, arms, and respiratory system require attention. You do best with varied exercise routines that prevent boredom. Mental stress can manifest physically.",
+            "strength": "Your adaptability allows you to try many approaches to wellness. You're willing to learn about health and apply new information.",
+            "challenge": "Scattered energy can lead to nervous exhaustion. Learning to calm and focus your active mind protects your wellbeing."
+        },
+        "Cancer": {
+            "natal": "Mars in Cancer creates energy that fluctuates with your emotional state. Your stomach and digestive system are particularly sensitive to stress and feelings. Nurturing environments support your health; hostile ones deplete it. Comfort eating may be a tendency requiring awareness. Your home and family life significantly impact your physical wellbeing.",
+            "strength": "Your attunement to your body's needs allows you to respond to subtle health signals. Self-nurturing comes naturally.",
+            "challenge": "Emotional stress directly impacts physical health. Learning to process feelings healthily protects your body."
+        },
+        "Leo": {
+            "natal": "Mars in Leo provides vital, radiant energy that feels nearly inexhaustible when you're doing what you love. Your heart and spine require particular care. You thrive when physically active in ways that feel expressive and joyful—exercise as performance rather than duty. Pride may sometimes prevent seeking necessary help.",
+            "strength": "Your generous vitality and capacity for joy support robust health. You shine when fully engaged with life.",
+            "challenge": "Overexertion to prove yourself increases strain. Learning that true strength includes rest protects your vital heart."
+        },
+        "Virgo": {
+            "natal": "Mars in Virgo creates precise, efficient energy oriented toward health maintenance. You naturally pay attention to diet, exercise, and physical optimization. Digestive and intestinal systems are sensitive. You may tend toward health anxiety—analyzing every symptom. Your body responds well to routine and discipline.",
+            "strength": "Your attention to health details helps you catch and address issues early. You're willing to do the maintenance work of wellness.",
+            "challenge": "Perfectionism creates stress that undermines health. Learning that good enough is healthy frees you from anxiety."
+        },
+        "Libra": {
+            "natal": "Mars in Libra brings energy that works best in partnership and balance. Your kidneys and lower back require attention. You do well exercising with others rather than alone. Internal conflicts—unaddressed anger or unfairness—can manifest as physical tension. Balance in all things is genuinely your health requirement, not just preference.",
+            "strength": "Your awareness of balance helps you avoid extremes that damage health. Partnership in wellness goals increases success.",
+            "challenge": "Suppressed anger manifests physically. Learning healthy assertion protects both relationships and physical health."
+        },
+        "Scorpio": {
+            "natal": "Mars in Scorpio provides intense, powerful energy that can either heal or harm depending on how it's directed. Your reproductive and eliminative systems require attention. You have remarkable capacity for regeneration when you engage your willpower. Psychological health directly impacts physical wellbeing—healing emotional wounds heals the body.",
+            "strength": "Your intensity and willpower support remarkable healing capacity. When you commit to health, you transform completely.",
+            "challenge": "Held grudges and unprocessed emotions poison the body. Learning to release and regenerate protects your powerful constitution."
+        },
+        "Sagittarius": {
+            "natal": "Mars in Sagittarius creates expansive energy that needs freedom to move. Your hips, thighs, and liver require attention. You thrive with outdoor activity and exercise that feels like adventure rather than routine. Excess—whether in eating, drinking, or activity—can overtax your system. Faith and meaning support your physical health.",
+            "strength": "Your enthusiasm for life generates abundant vital energy. Movement and adventure keep your spirits high.",
+            "challenge": "Overconfidence leads to overextension. Learning your body's actual limits protects against overdoing it."
+        },
+        "Capricorn": {
+            "natal": "Mars in Capricorn provides disciplined, enduring energy aimed at long-term goals. Your bones, joints, knees, and skin require particular care. You may push through warning signs to achieve objectives—a tendency requiring awareness. You do well with structured fitness programs and may improve with age as discipline compounds.",
+            "strength": "Your discipline creates consistent health practices that compound over time. You understand that wellness is built day by day.",
+            "challenge": "Rigidity and overwork strain your system. Learning to balance ambition with rest protects long-term health."
+        },
+        "Aquarius": {
+            "natal": "Mars in Aquarius creates erratic, electrical energy that needs unconventional outlets. Your ankles and circulation require attention. You thrive with fitness approaches that feel innovative rather than conventional. Nervous system health is particularly important. Group fitness or socially meaningful physical activities appeal to you.",
+            "strength": "Your willingness to try unconventional approaches may lead you to wellness methods that work perfectly for you.",
+            "challenge": "Inconsistency undermines health routines. Learning to maintain core practices while varying details supports sustained wellness."
+        },
+        "Pisces": {
+            "natal": "Mars in Pisces provides sensitive, fluid energy that can be difficult to direct. Your feet and immune system require attention. You're especially sensitive to environmental toxins, medications, and substances. Water-based exercise suits you particularly well. Your physical health is closely tied to spiritual and emotional wellbeing.",
+            "strength": "Your sensitivity allows you to respond to subtle body messages. Spiritual practices have tangibly positive physical effects.",
+            "challenge": "Boundary issues expose you to others' energy and substances. Learning energetic protection supports physical health."
+        }
+    },
+    "transit_aspects": {
+        "mars_conjunct_sun": {
+            "title": "Mars Conjunct Natal Sun",
+            "duration": "approximately 3-5 days",
+            "narrative": "This energizing transit supercharges your vitality but requires mindful management of amplified energy. Mars, the planet of action and assertion, aligning with your core life force creates a period of heightened physical power and drive.\n\nDuring this transit, you may feel unusually energetic, impatient, or even aggressive. Channel this excess energy through physical activity—this is an excellent time for athletic performance, starting new fitness routines, or tackling physically demanding tasks. Your body wants to move and accomplish.\n\nHowever, heightened energy also increases accident risk. Be particularly careful with sharp objects, heat, and fast movement. Impulsive actions can lead to injuries or conflicts. Road safety deserves extra attention during this period.\n\nThis is a powerful time for overcoming health obstacles through willpower. If you've been meaning to break bad habits or commit to better ones, Mars provides the drive. Use this cosmic boost wisely, and your health benefits. Waste it on impulsive conflict, and you may burn yourself out."
+        },
+        "saturn_conjunct_mars": {
+            "title": "Saturn Conjunct Natal Mars",
+            "duration": "approximately 2-4 weeks",
+            "narrative": "This significant transit, occurring every 29 years, represents a major testing and restructuring of your energy and how you use it. Saturn, the planet of limitation and maturation, meets your natal Mars, requiring that you take responsibility for your vitality.\n\nYou may experience lower energy, frustration, or physical challenges during this time. Saturn is essentially auditing your energy management—where have you been overexerting or neglecting your body? What requires more disciplined attention? Where has energy been wasted?\n\nThis is typically not a time for pushing hard physically. Instead, focus on rest, recovery, and addressing any structural issues in your health approach. Get overdue check-ups, address lingering issues, and establish sustainable routines.\n\nThe opportunity here is developing mature stamina rather than explosive energy. Saturn teaches that lasting vitality comes through discipline, consistency, and wise use of resources. The health structures you build now will serve you for decades. Accept current limitations as guidance toward more sustainable ways of using your life force."
+        },
+        "jupiter_trine_mars": {
+            "title": "Jupiter Trine Natal Mars",
+            "duration": "approximately 2 weeks",
+            "narrative": "This harmonious transit brings an upswing in physical vitality and confidence in your body's capacity. Jupiter's expansive blessing flows smoothly to your Mars, increasing energy, strength, and the desire to pursue physical goals.\n\nThis is an excellent time for athletic endeavors, starting ambitious fitness programs, or undertaking physically demanding projects. Your body responds well to challenge, and you may achieve personal bests or exceed previous limitations. Confidence in your physical capacity is high and generally justified.\n\nHealth issues during this time tend to resolve more easily than usual. Your body's recuperative powers are enhanced. Medical treatments or procedures initiated now often have favorable outcomes. Faith in healing supports actual healing.\n\nThe only caution is overconfidence leading to overexertion. Jupiter can inflate assessment of capacity beyond reality. Maintain reasonable limits even when feeling invincible. Overall though, this is a period to enjoy and utilize your enhanced vitality. Move, accomplish, and celebrate your body's capability."
+        },
+        "neptune_square_mars": {
+            "title": "Neptune Square Natal Mars",
+            "duration": "approximately 1-2 years (with exact periods)",
+            "narrative": "This challenging transit dissolves clear boundaries around energy and action, requiring careful navigation to maintain wellness. Neptune's nebulous influence on your Mars can manifest as low energy, confusing symptoms, or difficulty maintaining consistent health routines.\n\nDuring this period, you may experience unexplained fatigue, sensitivity to medications or substances, or mysterious symptoms that evade clear diagnosis. Your energy may feel undermined by factors you can't identify. This is a time for gentle self-care rather than pushing through with willpower.\n\nBe particularly cautious with substances—alcohol, medications, even supplements may affect you more unpredictably than usual. Your system is porous and sensitive. Avoid harsh treatments in favor of subtle, holistic approaches.\n\nThe opportunity here is developing trust in gentler forms of healing. Rest, water-based therapies, spiritual practice, and creative expression support your wellbeing more than aggressive intervention. Learn to flow with your energy's natural rhythms rather than forcing it into schedules. What your body truly needs may only be accessible through intuition rather than logic."
+        }
+    },
+    "house_transits": {
+        "mars_in_sixth": {
+            "title": "Mars Transiting Your 6th House",
+            "duration": "approximately 6 weeks",
+            "narrative": "This energizing transit brings increased focus and motivation to health matters. Mars moving through your 6th house provides the drive to tackle health goals, improve routines, and address issues you may have been avoiding.\n\nThis is an excellent time for starting exercise programs, eliminating bad habits, or finally addressing that health matter you've been putting off. Your motivation for wellness is high, and you have the energy to follow through. Physical work feels satisfying rather than draining.\n\nHowever, Mars also increases risk of stress-related issues and accidents. You may push too hard or become irritable about health imperfections. Small injuries in the course of daily work are more likely. Workplace conflicts can affect your physical wellbeing.\n\nBalance Mars's drive with adequate rest. The goal is sustainable improvement, not burnout. Channel the energy into constructive health actions rather than frustration about current conditions. Use this powerful transit to build momentum that lasts beyond its duration."
+        },
+        "saturn_in_sixth": {
+            "title": "Saturn Transiting Your 6th House",
+            "duration": "approximately 2.5 years",
+            "narrative": "This sobering transit brings serious attention to your health and daily routines. Saturn moving through your 6th house, occurring every 29 years, requires honest assessment and mature handling of wellness matters.\n\nChronic issues may become more apparent during this time, demanding attention you may have been avoiding. Your body becomes less forgiving of neglect. What you could get away with before now shows up as symptoms requiring address. This isn't punishment—it's Saturn's invitation to build sustainable health practices.\n\nThis is an excellent time for establishing lasting routines, addressing structural health issues, and developing the discipline of consistent self-care. Preventive measures and regular check-ups are particularly valuable now. What you build during this transit—bone density, cardiovascular health, healthy habits—will serve you for years.\n\nEnergy may feel lower or more serious responsibility required for daily work. Accept this as part of your health maturation. The discipline you develop now becomes the foundation for lasting wellness. Saturn's lessons are not easy but are enduring."
+        }
+    },
+    "monthly_templates": {
+        "introduction": "As {month} {year} unfolds, the planetary movements bring distinctive energies affecting your vitality, energy levels, and overall wellbeing. Understanding these cosmic currents helps you optimize your health practices and navigate challenges wisely.",
+        "favorable_month": "Your health stars shine favorably this month. Multiple harmonious aspects support physical vitality, making this an excellent time for athletic endeavors, starting new wellness routines, or tackling health goals requiring motivation.\n\nYour body responds well to positive efforts now. Exercise feels rewarding, healthy eating comes more naturally, and your overall energy supports active engagement with life. This is an ideal time for medical procedures or treatments that benefit from strong vital energy.\n\nTake advantage of this favorable window by establishing practices you want to maintain long-term. What you build now, under supportive stars, becomes easier to sustain when conditions are less optimal.",
+        "challenging_month": "Health matters require extra attention and gentleness this month. Challenging planetary aspects create pressure points that may manifest as lower energy, increased stress sensitivity, or the emergence of symptoms requiring attention.\n\nThis is not a time for pushing hard physically. Instead, focus on rest, recovery, and addressing any warning signs your body offers. Reduce stress where possible and increase nurturing self-care. Avoid major medical decisions unless necessary during the most intense aspects.\n\nThe challenges now, properly navigated, prevent larger issues later. Your body is communicating—listen to it. Sometimes the healthiest choice is rest rather than action.",
+        "mixed_month": "This month presents a varied health landscape with ups and downs requiring adaptive response. Your energy and wellness may fluctuate, with some periods supporting active efforts and others requiring rest and gentleness.\n\nPay attention to your body's signals and adjust activities accordingly. Some days will feel strong and capable while others require more careful pacing. Flexibility in your health approach serves you better than rigid routines this month.\n\nOverall, maintain core healthy practices while varying intensity based on how you actually feel. Wisdom lies in responding appropriately to each day's unique conditions rather than forcing a single approach regardless of circumstances."
+    }
+}

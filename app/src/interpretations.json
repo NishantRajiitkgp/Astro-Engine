@@ -1,0 +1,273 @@
+{
+    "planets": {
+        "sun": {
+            "general": "Vitality, identity, core self-expression",
+            "transit_meaning": "Highlights areas of self-expression, confidence, and life purpose"
+        },
+        "moon": {
+            "general": "Emotions, nurturing, instincts",
+            "transit_meaning": "Brings emotional shifts and intuitive awareness"
+        },
+        "mercury": {
+            "general": "Communication, thinking, learning",
+            "transit_meaning": "Activates mental processes and communication opportunities"
+        },
+        "venus": {
+            "general": "Love, beauty, values, money",
+            "transit_meaning": "Enhances relationships, pleasure, and financial matters"
+        },
+        "mars": {
+            "general": "Action, energy, drive, passion",
+            "transit_meaning": "Brings energy, motivation, and sometimes conflict"
+        },
+        "jupiter": {
+            "general": "Expansion, luck, growth, wisdom",
+            "transit_meaning": "Opens doors for growth, opportunity, and abundance"
+        },
+        "saturn": {
+            "general": "Discipline, responsibility, structure",
+            "transit_meaning": "Brings lessons, challenges, and long-term building"
+        },
+        "uranus": {
+            "general": "Innovation, sudden change, freedom",
+            "transit_meaning": "Creates unexpected shifts and breakthroughs"
+        },
+        "neptune": {
+            "general": "Dreams, spirituality, illusion",
+            "transit_meaning": "Dissolves boundaries and enhances intuition"
+        },
+        "pluto": {
+            "general": "Transformation, power, rebirth",
+            "transit_meaning": "Brings deep transformation and regeneration"
+        }
+    },
+    "aspects": {
+        "conjunction": {
+            "nature": "Fusion of energies - intensification",
+            "keywords": [
+                "merging",
+                "intensifying",
+                "activating",
+                "beginning"
+            ]
+        },
+        "sextile": {
+            "nature": "Harmonious opportunity",
+            "keywords": [
+                "opportunity",
+                "ease",
+                "talent",
+                "support"
+            ]
+        },
+        "square": {
+            "nature": "Challenge that promotes growth",
+            "keywords": [
+                "tension",
+                "challenge",
+                "action",
+                "growth"
+            ]
+        },
+        "trine": {
+            "nature": "Natural flow and ease",
+            "keywords": [
+                "flow",
+                "harmony",
+                "ease",
+                "gifts"
+            ]
+        },
+        "opposition": {
+            "nature": "Polarity requiring balance",
+            "keywords": [
+                "awareness",
+                "balance",
+                "relationships",
+                "projection"
+            ]
+        }
+    },
+    "houses": {
+        "1": {
+            "theme": "Self & Identity",
+            "areas": [
+                "personality",
+                "appearance",
+                "first impressions",
+                "new beginnings"
+            ]
+        },
+        "2": {
+            "theme": "Finances & Values",
+            "areas": [
+                "money",
+                "possessions",
+                "self-worth",
+                "resources",
+                "income"
+            ]
+        },
+        "3": {
+            "theme": "Communication",
+            "areas": [
+                "communication",
+                "siblings",
+                "short trips",
+                "learning",
+                "writing"
+            ]
+        },
+        "4": {
+            "theme": "Home & Family",
+            "areas": [
+                "home",
+                "family",
+                "roots",
+                "property",
+                "emotional foundation"
+            ]
+        },
+        "5": {
+            "theme": "Creativity & Romance",
+            "areas": [
+                "creativity",
+                "romance",
+                "children",
+                "pleasure",
+                "self-expression"
+            ]
+        },
+        "6": {
+            "theme": "Health & Work",
+            "areas": [
+                "daily routine",
+                "health",
+                "work environment",
+                "service",
+                "pets"
+            ]
+        },
+        "7": {
+            "theme": "Partnerships",
+            "areas": [
+                "marriage",
+                "partnerships",
+                "contracts",
+                "one-on-one relationships"
+            ]
+        },
+        "8": {
+            "theme": "Transformation",
+            "areas": [
+                "shared resources",
+                "intimacy",
+                "transformation",
+                "inheritance",
+                "taxes"
+            ]
+        },
+        "9": {
+            "theme": "Expansion",
+            "areas": [
+                "travel",
+                "higher education",
+                "philosophy",
+                "publishing",
+                "foreign cultures"
+            ]
+        },
+        "10": {
+            "theme": "Career & Reputation",
+            "areas": [
+                "career",
+                "public image",
+                "achievements",
+                "authority",
+                "status"
+            ]
+        },
+        "11": {
+            "theme": "Community & Goals",
+            "areas": [
+                "friends",
+                "groups",
+                "hopes",
+                "wishes",
+                "social causes",
+                "networking"
+            ]
+        },
+        "12": {
+            "theme": "Spirituality",
+            "areas": [
+                "solitude",
+                "spirituality",
+                "hidden matters",
+                "self-undoing",
+                "karma"
+            ]
+        }
+    },
+    "transit_interpretations": {
+        "jupiter": {
+            "house_2": {
+                "general": "A period of financial growth and increased earning potential. Your values may expand, and you could find new ways to generate income.",
+                "opportunities": [
+                    "New income sources",
+                    "Raises or bonuses",
+                    "Feeling more abundant"
+                ],
+                "advice": "While abundance flows, be mindful not to overspend. This is a great time to invest in yourself and your future."
+            },
+            "house_7": {
+                "general": "Relationships are highlighted with opportunities for growth and expansion. New partnerships may form, and existing ones can flourish.",
+                "opportunities": [
+                    "Meeting a significant partner",
+                    "Business partnerships",
+                    "Improved relationships"
+                ],
+                "advice": "Be open to collaboration and compromise. Growth comes through others now."
+            },
+            "house_10": {
+                "general": "Career advancement and recognition are favored. This is an excellent period for professional growth and achieving your goals.",
+                "opportunities": [
+                    "Promotions",
+                    "Recognition",
+                    "Career expansion",
+                    "New opportunities"
+                ],
+                "advice": "Put yourself out there professionally. Your efforts are more likely to be noticed and rewarded."
+            }
+        },
+        "saturn": {
+            "house_2": {
+                "general": "A period of financial restructuring. You may need to budget more carefully, but this builds long-term financial security.",
+                "challenges": [
+                    "Tighter budget",
+                    "Financial responsibilities",
+                    "Reevaluating values"
+                ],
+                "advice": "Create a solid financial plan. This is a time for building sustainable wealth through discipline."
+            },
+            "house_6": {
+                "general": "Focus on health routines and work responsibilities. You may need to address chronic issues or improve daily habits.",
+                "challenges": [
+                    "Health matters",
+                    "Work pressure",
+                    "Need for routine"
+                ],
+                "advice": "Prioritize your health and establish sustainable daily routines. Hard work now pays off later."
+            },
+            "house_10": {
+                "general": "Career responsibilities increase. This is a defining period for your professional life, requiring dedication and maturity.",
+                "challenges": [
+                    "Heavy workload",
+                    "Authority issues",
+                    "Career decisions"
+                ],
+                "advice": "Take your career seriously. The structures you build now will define your professional legacy."
+            }
+        }
+    }
+}

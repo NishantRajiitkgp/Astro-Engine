@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro Engine | 12-Month Predictions</title>
+  <meta name="description"
+    content="Get personalized 12-month astrological predictions for relationships, career, health, and finances using Swiss Ephemeris precision calculations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="stars"></div>
+  <div class="stars2"></div>
+  <div class="stars3"></div>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-icon">✨</span>
+        <h1>Astro Engine</h1>
+      </div>
+      <p class="tagline">Discover your cosmic path for the next 12 months</p>
+    </header>
+
+    <!-- Input Form -->
+    <section id="input-section" class="card glass-card">
+      <h2 class="card-title">
+        <span class="icon">🔮</span>
+        Enter Your Birth Details
+      </h2>
+
+      <form id="prediction-form">
+        <div class="form-grid">
+          <div class="form-group full-width">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="place">Birth Place</label>
+            <input type="text" id="place" name="place" placeholder="City, Country (e.g., Mumbai, India)" required>
+            <span class="hint">We'll automatically find the coordinates</span>
+          </div>
+
+          <div class="form-group">
+            <label for="day">Day</label>
+            <input type="number" id="day" name="day" min="1" max="31" placeholder="DD" required>
+          </div>
+
+          <div class="form-group">
+            <label for="month">Month</label>
+            <select id="month" name="month" required>
+              <option value="">Select</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="year">Year</label>
+            <input type="number" id="year" name="year" min="1900" max="2020" placeholder="YYYY" required>
+          </div>
+
+          <div class="form-group">
+            <label for="hour">Hour (24h)</label>
+            <input type="number" id="hour" name="hour" min="0" max="23" placeholder="HH" value="12">
+          </div>
+
+          <div class="form-group">
+            <label for="minute">Minute</label>
+            <input type="number" id="minute" name="minute" min="0" max="59" placeholder="MM" value="0">
+          </div>
+
+          <div class="form-group">
+            <label for="timezone">Timezone (UTC)</label>
+            <select id="timezone" name="timezone">
+              <option value="-12">UTC-12</option>
+              <option value="-11">UTC-11</option>
+              <option value="-10">UTC-10 (Hawaii)</option>
+              <option value="-9">UTC-9 (Alaska)</option>
+              <option value="-8">UTC-8 (PST)</option>
+              <option value="-7">UTC-7 (MST)</option>
+              <option value="-6">UTC-6 (CST)</option>
+              <option value="-5">UTC-5 (EST)</option>
+              <option value="-4">UTC-4</option>
+              <option value="-3">UTC-3</option>
+              <option value="-2">UTC-2</option>
+              <option value="-1">UTC-1</option>
+              <option value="0">UTC+0 (GMT)</option>
+              <option value="1">UTC+1 (CET)</option>
+              <option value="2">UTC+2</option>
+              <option value="3">UTC+3</option>
+              <option value="4">UTC+4</option>
+              <option value="5">UTC+5</option>
+              <option value="5.5" selected>UTC+5:30 (IST)</option>
+              <option value="6">UTC+6</option>
+              <option value="7">UTC+7</option>
+              <option value="8">UTC+8</option>
+              <option value="9">UTC+9 (JST)</option>
+              <option value="10">UTC+10</option>
+              <option value="11">UTC+11</option>
+              <option value="12">UTC+12</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <span class="btn-text">Generate My Predictions</span>
+          <span class="btn-icon">→</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- Loading State -->
+    <section id="loading-section" class="loading hidden">
+      <div class="loader">
+        <div class="planet"></div>
+        <div class="orbit">
+          <div class="moon"></div>
+        </div>
+      </div>
+      <p class="loading-text">Calculating your cosmic blueprint...</p>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results-section" class="hidden">
+      <!-- Summary Card -->
+      <div class="card glass-card summary-card">
+        <div class="profile-header">
+          <div class="avatar">🌟</div>
+          <div class="profile-info">
+            <h2 id="result-name">Your Name</h2>
+            <p id="result-signs" class="signs-text"></p>
+          </div>
+        </div>
+
+        <div class="best-months">
+          <h3>Best Months For You</h3>
+          <div class="best-months-grid">
+            <div class="best-month">
+              <span class="icon">💕</span>
+              <span class="label">Love</span>
+              <span id="best-love" class="value">-</span>
+            </div>
+            <div class="best-month">
+              <span class="icon">💰</span>
+              <span class="label">Money</span>
+              <span id="best-money" class="value">-</span>
+            </div>
+            <div class="best-month">
+              <span class="icon">💪</span>
+              <span class="label">Health</span>
+              <span id="best-health" class="value">-</span>
+            </div>
+            <div class="best-month">
+              <span class="icon">💼</span>
+              <span class="label">Career</span>
+              <span id="best-career" class="value">-</span>
+            </div>
+          </div>
+        </div>
+
+        <p id="overall-outlook" class="outlook-text"></p>
+      </div>
+
+      <!-- Monthly Predictions -->
+      <div class="card glass-card">
+        <h2 class="card-title">
+          <span class="icon">📅</span>
+          12-Month Forecast
+        </h2>
+
+        <!-- Category Tabs -->
+        <div class="tabs">
+          <button class="tab active" data-category="relationships">💕 Relationships</button>
+          <button class="tab" data-category="financial">💰 Financial</button>
+          <button class="tab" data-category="health">💪 Health</button>
+          <button class="tab" data-category="career">💼 Career</button>
+        </div>
+
+        <!-- Months Grid -->
+        <div id="months-container" class="months-grid"></div>
+
+        <!-- View Detailed Report Button -->
+        <a href="/report" class="submit-btn detailed-report-btn"
+          style="text-decoration: none; display: flex; margin-top: 1.5rem; background: linear-gradient(135deg, #f472b6, #8b5cf6);">
+          <span class="btn-text">📖 View Detailed Report (20+ Pages)</span>
+          <span class="btn-icon">→</span>
+        </a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="button-group" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+        <button id="new-prediction-btn" class="submit-btn secondary" style="flex: 1;">
+          <span class="btn-text">Generate New Prediction</span>
+          <span class="btn-icon">↻</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Engine | Detailed Report</title>
+    <meta name="description"
+        content="Your personalized detailed astrological report with comprehensive monthly forecasts.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="report-styles.css">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+
+    <!-- Header -->
+    <header class="report-header">
+        <a href="/" class="logo">
+            <span class="logo-icon">✨</span>
+            <h1>Astro Engine</h1>
+        </a>
+        <div class="header-actions">
+            <button id="print-btn" class="action-btn">
+                <span>📄</span> Print/PDF
+            </button>
+            <a href="/" class="action-btn secondary">← New Report</a>
+        </div>
+    </header>
+
+    <!-- Loading -->
+    <div id="loading" class="loading-screen">
+        <div class="loader">
+            <div class="planet"></div>
+            <div class="orbit">
+                <div class="moon"></div>
+            </div>
+        </div>
+        <p>Generating your detailed cosmic report...</p>
+    </div>
+
+    <!-- Report Content -->
+    <main id="report-container" class="report-container hidden">
+        <!-- Cover Section -->
+        <section class="cover-section">
+            <div class="cover-decoration">★</div>
+            <h1 id="report-title" class="report-title">Your Astrological Report</h1>
+            <div class="cover-meta">
+                <p id="report-for">Prepared for <strong>Name</strong></p>
+                <p id="report-birth">Born: Date | Place</p>
+                <p id="report-date">Generated: Date</p>
+            </div>
+        </section>
+
+        <!-- Category Navigation -->
+        <nav class="category-nav">
+            <button class="cat-btn active" data-category="relationships">
+                <span class="cat-icon">💕</span>
+                <span class="cat-label">Relationships</span>
+            </button>
+            <button class="cat-btn" data-category="financial">
+                <span class="cat-icon">💰</span>
+                <span class="cat-label">Financial</span>
+            </button>
+            <button class="cat-btn" data-category="health">
+                <span class="cat-icon">💪</span>
+                <span class="cat-label">Health</span>
+            </button>
+            <button class="cat-btn" data-category="career">
+                <span class="cat-icon">💼</span>
+                <span class="cat-label">Career</span>
+            </button>
+        </nav>
+
+        <!-- Report Body -->
+        <article id="report-body" class="report-body">
+            <!-- Introduction -->
+            <section id="introduction-section" class="report-section">
+                <h2 class="section-title">Introduction</h2>
+                <div id="introduction-content" class="prose"></div>
+            </section>
+
+            <!-- Lifetime Analysis -->
+            <section id="lifetime-section" class="report-section">
+                <h2 class="section-title" id="lifetime-title">Your Lifetime Patterns</h2>
+                <p id="lifetime-description" class="section-description"></p>
+                <div id="lifetime-content" class="lifetime-grid"></div>
+            </section>
+
+            <!-- Yearly Overview -->
+            <section id="yearly-section" class="report-section">
+                <h2 class="section-title" id="yearly-title">Your Year at a Glance</h2>
+                <div id="yearly-content" class="prose"></div>
+            </section>
+
+            <!-- Monthly Forecasts -->
+            <section id="monthly-section" class="report-section">
+                <h2 class="section-title">12-Month Detailed Forecast</h2>
+                <div id="monthly-content" class="monthly-forecasts"></div>
+            </section>
+
+            <!-- Conclusion -->
+            <section id="conclusion-section" class="report-section conclusion">
+                <h2 class="section-title">Final Thoughts</h2>
+                <div id="conclusion-content" class="prose conclusion-text"></div>
+            </section>
+        </article>
+    </main>
+
+    <script src="report.js"></script>
+</body>
+
+</html>

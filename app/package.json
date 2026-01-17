@@ -1,0 +1,25 @@
+{
+    "name": "astro-prediction-engine",
+    "version": "1.0.0",
+    "description": "Astrology prediction engine using Swiss Ephemeris for 12-month forecasts",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node tests/ephemeris.test.js && node tests/birthChart.test.js"
+    },
+    "keywords": [
+        "astrology",
+        "swiss-ephemeris",
+        "horoscope",
+        "predictions"
+    ],
+    "author": "Astro Engine",
+    "license": "AGPL-3.0",
+    "dependencies": {
+        "swisseph-wasm": "^0.0.4",
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "axios": "^1.6.2"
+    }
+}

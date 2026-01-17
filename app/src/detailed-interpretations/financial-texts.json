@@ -1,0 +1,107 @@
+{
+    "introduction": {
+        "template": "Your financial horoscope reveals the cosmic patterns that influence your relationship with money, resources, and material security. Based on your birth chart, we can see how Jupiter (planet of abundance), Saturn (planet of structure), and your 2nd and 8th houses shape your financial destiny.\n\nWith Jupiter in {jupiterSign} and your 2nd house cusp in {secondHouseSign}, you possess a unique blueprint for prosperity that guides how you earn, save, spend, and invest. This analysis explores how the planetary transits of the coming year will activate these patterns, bringing opportunities for growth and times requiring careful stewardship."
+    },
+    "jupiter_in_signs": {
+        "Aries": {
+            "natal": "Jupiter in Aries gives you a pioneering approach to wealth creation. You're entrepreneurial by nature, often preferring to create your own opportunities rather than follow established paths. Financial breakthroughs often come through bold initiative, leadership roles, and being first-to-market with ideas. Your confidence attracts investment and support from others who believe in your vision.",
+            "strength": "Your willingness to take calculated risks opens doors that remain closed to more cautious individuals. Fortune favors your boldness.",
+            "challenge": "Impulsive financial decisions can undermine long-term wealth building. Learning to balance initiative with strategic patience maximizes your prosperity potential."
+        },
+        "Taurus": {
+            "natal": "Jupiter in Taurus blesses you with a natural understanding of how to build and preserve wealth. You have excellent financial instincts, particularly regarding tangible assets like real estate, quality goods, and steady investments. Growth comes through patience and consistency rather than get-rich-quick schemes. Your relationship with money is sensual—you appreciate what wealth can provide in terms of comfort and beauty.",
+            "strength": "Your patient approach to wealth building creates lasting abundance. You understand that real prosperity takes time and consistent effort.",
+            "challenge": "Excessive attachment to material security can limit growth opportunities. Learning to invest in expansion without abandoning stability maximizes abundance."
+        },
+        "Gemini": {
+            "natal": "Jupiter in Gemini expands your wealth through information, communication, and mental agility. You may earn through writing, teaching, media, technology, or any field requiring intelligence and adaptability. Multiple income streams appeal to you more than putting all eggs in one basket. Networking and staying informed about trends opens financial doors.",
+            "strength": "Your versatility and communication skills create diverse income opportunities. You adapt quickly to changing economic landscapes.",
+            "challenge": "Scattered focus can dilute financial progress. Learning to concentrate your considerable intelligence on key opportunities builds greater wealth."
+        },
+        "Cancer": {
+            "natal": "Jupiter in Cancer brings financial blessings through nurturing, family, real estate, and businesses that serve emotional needs. You may inherit wealth or benefit significantly from family connections. Your intuition guides financial decisions effectively when you trust it. Security-focused investments and building a comfortable home base are priorities.",
+            "strength": "Your protective instincts serve you well in financial matters. You build wealth that supports family and creates lasting security.",
+            "challenge": "Emotional decisions about money can override financial wisdom. Learning to balance heart and head in financial matters optimizes prosperity."
+        },
+        "Leo": {
+            "natal": "Jupiter in Leo brings abundance through creative expression, leadership, and enterprises where you can shine. You attract wealth by being visible and confident about your value. Entertainment, luxury goods, children's products, and speculative ventures can be lucrative. Generosity often returns to you multiplied—the more you give, the more you receive.",
+            "strength": "Your natural magnetism attracts financial opportunities and supportive benefactors. You inspire others to invest in your vision.",
+            "challenge": "Extravagant spending can outpace even generous income. Learning to balance royal tastes with practical budgeting maximizes lasting wealth."
+        },
+        "Virgo": {
+            "natal": "Jupiter in Virgo brings financial growth through service, skill development, and attention to detail. You excel in fields requiring analytical ability, practical problem-solving, and quality control. Health services, technical fields, and precision work can be particularly lucrative. Your careful approach to money management builds wealth steadily over time.",
+            "strength": "Your analytical skills help you make sound financial decisions. You catch details others miss, both in opportunities and potential problems.",
+            "challenge": "Excessive caution can cause you to miss good opportunities. Learning when 'good enough' is sufficient frees energy for growth."
+        },
+        "Libra": {
+            "natal": "Jupiter in Libra expands wealth through partnerships, aesthetics, and diplomacy. You benefit financially through collaboration, joint ventures, and marriage. Fields involving beauty, art, fashion, law, and mediation can be lucrative. Your ability to see multiple perspectives helps you negotiate favorable deals.",
+            "strength": "Your partnership orientation means you rarely have to go it alone. Beneficial collaborations multiply your prosperity potential.",
+            "challenge": "Indecision can delay financial progress. Learning to make important money decisions without excessive consultation builds independence."
+        },
+        "Scorpio": {
+            "natal": "Jupiter in Scorpio brings financial power through transformation, investment, and managing other people's money. You have keen instincts for hidden value and can profit from what others overlook or fear. Inheritance, insurance, and deep research can benefit you financially. Your all-or-nothing approach to wealth can bring significant gains.",
+            "strength": "Your psychological insight and willingness to go deep creates financial opportunities others miss. You understand the hidden dynamics of wealth.",
+            "challenge": "Obsessive focus on financial power can create unhealthy dynamics. Learning to hold resources responsibly without controlling optimizes prosperity."
+        },
+        "Sagittarius": {
+            "natal": "Jupiter is at home in Sagittarius, bringing natural luck and expansive opportunities in finance. You benefit through higher education, publishing, international ventures, and fields involving philosophy or meaning-making. Your optimism attracts abundance, and opportunities often come through travel or foreign connections. Faith in life's generosity itself seems to generate prosperity.",
+            "strength": "Your big-picture thinking and natural optimism opens doors to opportunities others can't imagine. Fortune genuinely favors you.",
+            "challenge": "Over-optimism can lead to overextension. Learning to balance faith with practical planning maintains the prosperity you attract."
+        },
+        "Capricorn": {
+            "natal": "Jupiter in Capricorn builds wealth through discipline, structure, and long-term planning. You understand that lasting prosperity requires consistent effort over time. Corporate structures, government, traditional industries, and established systems can be sources of financial growth. Your reputation and integrity attract material rewards.",
+            "strength": "Your patient, structured approach to wealth building creates enduring prosperity. You build financial legacies that last.",
+            "challenge": "Excessive seriousness about money can limit joyful abundance. Learning to enjoy prosperity along the way enhances both wealth and wellbeing."
+        },
+        "Aquarius": {
+            "natal": "Jupiter in Aquarius brings financial opportunities through innovation, technology, social networks, and humanitarian causes. You may profit from what's ahead of its time—your ability to see future trends opens unique opportunities. Collaborative ventures and group efforts can multiply your prosperity. Thinking differently about money itself can attract unusual abundance.",
+            "strength": "Your innovative perspective helps you see financial opportunities others miss. Working toward idealistic goals can also generate income.",
+            "challenge": "Unconventional approach may miss obvious opportunities. Learning to balance innovation with proven strategies builds sustainable wealth."
+        },
+        "Pisces": {
+            "natal": "Jupiter is exalted in Pisces, blessing you with abundance through intuition, creativity, and spiritual service. You may profit through arts, healing, film, music, or any field allowing imaginative and compassionate expression. Financial opportunities often come in seemingly miraculous ways when you're aligned with your soul's purpose. Trust in the universe's support attracts material blessings.",
+            "strength": "Your faith and imagination attract abundance in magical ways. Spiritual alignment often precedes material manifestation.",
+            "challenge": "Boundary issues can lead to financial drain through over-giving or poor discernment. Learning practical stewardship protects your generous nature."
+        }
+    },
+    "transit_aspects": {
+        "jupiter_conjunct_sun": {
+            "title": "Jupiter Conjunct Natal Sun",
+            "duration": "approximately 2-3 weeks",
+            "narrative": "This is one of the most auspicious periods in your 12-year Jupiter cycle for financial expansion and abundance. Jupiter, the planet of growth and opportunity, aligns with your Sun—your core vitality and life force—opening doors that may have seemed permanently closed.\n\nDuring this transit, you radiate success and attract favorable attention from those in positions to advance your material interests. Raises, promotions, profitable ventures, and fortunate financial developments often coincide with this alignment. Your confidence is high, and others perceive you as someone worth investing in.\n\nThis is an excellent time to ask for what you're worth, launch financial initiatives, or invest in your future. The universe is supporting your growth—meet this support with bold but wise action. Avoid the only pitfall of this transit: overconfidence leading to overextension. Jupiter's abundance is real, but it still requires practical handling.\n\nUse this period to set ambitious financial goals. What you envision now has an excellent chance of manifestation. The only limit is your own capacity to dream big enough."
+        },
+        "saturn_conjunct_jupiter": {
+            "title": "Saturn Conjunct Natal Jupiter",
+            "duration": "approximately 2-4 weeks",
+            "narrative": "This significant transit brings a reality check to your financial expansion and abundance patterns. Saturn, the planet of structure and limitation, meets your natal Jupiter, testing whether your prosperity is built on solid foundations.\n\nYou may experience financial contraction or limitation during this time, but this isn't punishment—it's consolidation. Saturn asks: Of all the abundance Jupiter has brought, what is truly sustainable? What requires better structure? Where have optimistic projections outpaced reality?\n\nThis is an excellent time to create budgets, pay down debt, build savings, and establish the practical frameworks that support lasting prosperity. Investments made now should be conservative and long-term oriented. Get-rich-quick thinking is particularly ill-advised.\n\nThe opportunity here is to mature your relationship with abundance. True prosperity isn't just about having more—it's about stewarding what you have with wisdom. Saturn's discipline, combined with Jupiter's faith, creates the optimal conditions for lasting wealth. Accept the temporary limitation as preparation for greater, more sustainable abundance."
+        },
+        "jupiter_trine_moon": {
+            "title": "Jupiter Trine Natal Moon",
+            "duration": "approximately 2 weeks",
+            "narrative": "This harmonious transit brings financial ease and emotional satisfaction together. Jupiter's expansive energy flows smoothly to your Moon, creating conditions where prosperity feels emotionally right and emotionally satisfying avenues for income open naturally.\n\nReal estate, domestic businesses, family investments, and ventures involving nurturing or emotional connection are particularly favorable now. Your intuition about money is heightened—gut feelings about financial opportunities tend to be accurate and should be trusted.\n\nThis is also an excellent time for making your home more beautiful or comfortable, as Venus and financial flow support domestic improvement. Large purchases for the home that enhance your quality of life are well-supported.\n\nRelationships with women or mother figures may bring financial benefits or opportunities. Family financial situations tend toward positive resolution. Overall, this transit creates a beautiful sense of abundance that nourishes both your material needs and your emotional wellbeing."
+        },
+        "pluto_square_venus": {
+            "title": "Pluto Square Natal Venus",
+            "duration": "approximately 1-2 years (with exact periods)",
+            "narrative": "This intense transit fundamentally transforms your relationship with money and values. Pluto's pressure on your natal Venus forces buried issues about self-worth, earning capacity, and material attachments to the surface for transformation.\n\nYou may experience financial power struggles—in relationships where money represents control, in work situations where compensation reflects respect, or internally between your desires and your deeper values. Issues of financial dependency, manipulation through money, or using resources for power become visible and must be addressed.\n\nThis can be a period of significant financial loss if you're holding onto resources that no longer serve your evolution. However, it can also be a time of profound financial empowerment if you're willing to completely transform your approach to money and worth.\n\nThe key is to face financial fears directly rather than avoiding them. What are you really afraid of regarding money? Where does your sense of worth actually come from? As you answer these questions honestly, your financial life transforms from the inside out. The result, once this transit passes, is typically a much more empowered and authentic relationship with resources."
+        }
+    },
+    "house_transits": {
+        "jupiter_in_second": {
+            "title": "Jupiter Transiting Your 2nd House",
+            "duration": "approximately 12 months",
+            "narrative": "This is your financial harvest year—one of the most favorable periods for income growth in your entire Jupiter cycle. Jupiter, the planet of expansion and abundance, is moving through your 2nd house of money, personal resources, and earned income.\n\nDuring this year, opportunities for increased income are plentiful. You may receive raises, lucrative new positions, profitable business opportunities, or simply find that money flows more easily in your direction. Your sense of self-worth also expands, which often precedes and enables material growth. When you know your value, others recognize it too.\n\nThis is an excellent time to ask for raises, negotiate better compensation, start businesses, or invest in income-generating assets. The universe is supporting your financial growth—meet this support with bold but wise action.\n\nHowever, Jupiter expands everything it touches, including spending. Be mindful of lifestyle inflation that eats up increased income. The goal isn't just higher income but greater net worth. Build savings and investments alongside enjoying Jupiter's bounty.\n\nYour values and what you truly treasure may also expand beyond purely material concerns. True wealth, you may discover, encompasses much more than money—though money you shall certainly have more of during this fortunate transit."
+        },
+        "saturn_in_second": {
+            "title": "Saturn Transiting Your 2nd House",
+            "duration": "approximately 2.5 years",
+            "narrative": "This period marks a significant maturation in your relationship with money and material resources. Saturn's journey through your 2nd house, occurring every 29 years, requires that you take financial matters seriously and build structures for lasting security.\n\nYou may experience financial pressure or limitation during this transit—not as punishment, but as motivation for developing financial maturity. Whatever is unstable in your financial life will become obvious now. Debts require attention. Income streams need to be secured. Spending habits undergo scrutiny.\n\nThis is an ideal time for budgeting, debt reduction, building emergency funds, and establishing the practical structures that support long-term prosperity. Get professional financial advice. Create realistic plans. Do the unglamorous work of financial stability.\n\nThe fruits of this period may not be obvious during the transit itself, but you're laying foundations for lasting security. Saturn rewards discipline with endurance. The financial structures you build now will serve you for decades. Those who avoid this work often face harsher lessons later.\n\nYour values also mature during this transit. You become clearer about what truly matters versus what's merely shiny. This discernment becomes a valuable asset in all future financial decisions."
+        }
+    },
+    "monthly_templates": {
+        "introduction": "As {month} {year} unfolds, the planetary movements bring distinctive energies to your financial life. Understanding these cosmic currents helps you make the most of opportunities and navigate challenges wisely.",
+        "favorable_month": "The financial omens are favorable this month. Multiple harmonious aspects activate your money sectors, creating flowing opportunities for increased income, profitable ventures, and improved material circumstances.\n\nThis is an excellent time for financial initiatives—asking for raises, launching businesses, making investments, or otherwise advancing your prosperity goals. Your financial instincts are particularly sound, and opportunities that appear now are likely genuine rather than too-good-to-be-true.\n\nDon't let this favorable energy pass without action. The universe can only meet effort with opportunity. Do your part by actively pursuing financial goals, and the planets will do theirs by opening doors.",
+        "challenging_month": "Financial matters require extra attention and care this month. Challenging planetary aspects create pressure points that reveal where your financial life needs shoring up. Rather than viewing this as simply difficult, recognize it as an opportunity for financial strengthening.\n\nAvoid major financial risks, speculative ventures, or significant purchases during the most intense aspects. Delay financial negotiations if possible until the energy settles. Focus instead on analysis, planning, and addressing weaknesses in your financial structure.\n\nThe challenges now, properly handled, prepare you for greater stability ahead. Every difficulty contains a lesson; every restriction reveals a freedom not yet claimed. Approach this month's financial challenges as a teacher rather than an adversary.",
+        "mixed_month": "This month presents a complex financial landscape with both opportunities and challenges woven together. Different parts of the month favor different activities—some days are excellent for action while others call for restraint.\n\nPay attention to specific dates of significant aspects. Use favorable windows for important financial moves and challenging windows for reflection and planning rather than action. Your capacity to read the energy and adjust your timing accordingly will determine your results.\n\nOverall, maintain both optimism and prudence. Opportunities are real but require discernment. Challenges are navigable with patience. Financial wisdom lies in responding appropriately to each moment's unique conditions."
+    }
+}
